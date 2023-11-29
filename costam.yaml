@@ -1,0 +1,9 @@
+openapi: 3.0.1
+info:
+  title: costam yaml
+  x-cortex-git:
+    github:
+      alias: voytekgar
+      repository: voytekgar-org/puste
+  x-cortex-tag: costam-yaml
+  x-cortex-type: service
