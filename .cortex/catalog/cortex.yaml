@@ -1,6 +1,6 @@
 openapi: 3.0.1
 info:
-  title: Voytekgar - org - puste nested 6
+  title: Voytekgar - org - puste nested 7
   x-cortex-git:
     github:
       alias: voytekgar
