@@ -6,7 +6,7 @@
     "registry": "https://npm.pkg.github.com/"
   },
   "engines": {
-    "npm": "please-use-yarn",
+    "npm": "please-use-yarn ",
     "yarn": ">=1.22.181"
   },
   "workspaces": [
