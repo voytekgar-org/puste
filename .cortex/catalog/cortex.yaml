@@ -1,6 +1,6 @@
 openapi: 3.0.1
 info:
-  ctitle: Voytekgar - puste 7 err
+  ctitle: Voytekgar - puste 1
   x-cortex-git:
     github:
       alias: voytekgar
