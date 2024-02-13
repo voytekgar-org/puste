@@ -29,4 +29,4 @@ ladder:
           rank: 1
 filter:
     category: RESOURCE
-    query: entity.type.matches("aws-account")
+    query: entity.type().matches("aws-account")
