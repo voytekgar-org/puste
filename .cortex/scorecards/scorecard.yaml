@@ -1,9 +1,9 @@
 description: Tracks an AWS domain's alignment with the Cloud team's standards and practices. These are the domain owner's responsibility.
-name: Cloud Account Health 1
+name: Cloud Account Health 2
 rules:
     - description: All AWS accounts must have a valid business owner
       expression: entity.definition().business_owner != null and entity.definition().business_owner.matches("^[a-z\\-]+$")
-      failureMessage: Open an MR against [the tools repo](https://gitlab.dev.tripadvisor.com/cloud/tools/-/tree/main/aws/requests) setting a valid, active
+      failureMessage: Open an MR against [the tools repo](­https://gitlab.dev.tripadvisor.com/cloud/tools/-/tree/main/aws/requests) setting a valid, active
           employee username in the business_owner field of your account's YAML file.
       filter:
           category: RESOURCE
@@ -12,11 +12,11 @@ rules:
       weight: 1
     - description: All AWS accounts should deploy the latest version of the secure-secrets module
       expression: git.fileContents("us-east-1/secrets.tf").matches("secure-secrets\\.git\\?ref=1\\.2\\.1")
-      failureMessage: Edit us-east-1/secrets.tf in [your account's Terraform repo](https://gitlab.dev.tripadvisor.com/cloud/accounts/), setting the module
+      failureMessage: Edit us-east-1/secrets.tf in [your account's Terraform repo](­https://gitlab.dev.tripadvisor.com/cloud/accounts/), setting the module
           version to 1.2.1
       filter:
           category: RESOURCE
-          query: entity.definition() != null and entity.definition().secure­_secrets
+          query: entity.definition().secure_secrets
       level: Bronze
       title: Latest secure-secrets module
       weight: 1
