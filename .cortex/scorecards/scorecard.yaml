@@ -1,5 +1,5 @@
 description: Tracks an AWS domain's alignment with the Cloud team's standards and practices. These are the domain owner's responsibility.
-name: Cloud Account Health 7
+name: Cloud Account Health 8
 rules:
     - description: All AWS accounts must have a valid business owner
       expression: entity.definition().business_owner != null and entity.definition().business_owner.matches("^[a-z\\-]+$")
