@@ -16,7 +16,7 @@ rules:
           version to 1.2.1
       filter:
           category: RESOURCE
-          query: entity.definition() != null and entity.definition().secure­_secrets
+          query: entity.definition() != null and entity.definition().secure_secrets
       level: Bronze
       title: Latest secure-secrets module
       weight: 1
