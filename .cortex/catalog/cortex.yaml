@@ -5,5 +5,5 @@ info:
     github:
       alias: voytekgar
       repository: voytekgar-org/puste
-  x-cortex-tag: puste-nested
+  x-cortex-tag: puste
   x-cortex-type: service
