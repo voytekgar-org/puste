@@ -1,6 +1,6 @@
 openapi: 3.0.1
 info:
-  title: puste 9
+  title: puste 10
   x-cortex-git:
     github:
       alias: voytekgar
